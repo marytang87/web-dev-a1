@@ -1,17 +1,22 @@
 body {
-	background-color:rgb(214,122,223,0.25);
+	background-color:rgb(55,46,62,0.25);
 	font-family:verdana;
 	text-align:center;
+	margin: 20px;
 }
 
 table {
 	width:100%;
+	border-collapse: collapse;
 }
 
-table, th, td {
-	border: 1px solid rgb(241,208,175,0.25);
-	border-collapse: collapse;
-	background-color: rgb(251,197,33,0.25);
+th, td {
+	background-color: rgb(214,122,223,0.25);
+	border: 2px solid rgb(251,197,33,0.25);
+	padding: 12px;
+}
+
+th {
 }
 
 a:link {
