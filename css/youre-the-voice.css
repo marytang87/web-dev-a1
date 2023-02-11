@@ -1,0 +1,39 @@
+body {
+	background-color:rgb(55,46,62,0.25);
+	font-family:verdana;
+	text-align:center;
+	margin: 20px;
+}
+
+table {
+	width:100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	background-color: rgb(214,122,223,0.25);
+	border: 2px solid rgb(251,197,33,0.25);
+	padding: 12px;
+}
+
+th {
+}
+
+a:link {
+	color: brown;
+	text-decoration: none;
+	background-color: rgb(222,184,135,0.25);
+	padding: 14px 25px;
+	display: inline-block;
+	border: 2px solid rgb(210,105,30,0.25);
+	border-radius: 25px;
+	margin: 20px;
+}
+
+a:hover {
+	color: cornflowerblue;
+}
+
+a:active {
+	color: darkblue;
+}
